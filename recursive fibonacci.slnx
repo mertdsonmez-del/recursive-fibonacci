@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="recursive fibonacci.vcxproj" Id="2a26d159-c02d-4699-83e2-ed011ac40796" />
+</Solution>
