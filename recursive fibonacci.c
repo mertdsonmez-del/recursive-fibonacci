@@ -37,33 +37,8 @@ int main()
 }
 
 
-
 /*
-void fibonacci(int birinci,int ikinci,int son,int sayi,int i)
-{
-    if (i < sayi)
-    {
-        printf("%d ", birinci);
-        son = birinci + ikinci;
-        birinci = ikinci;
-        ikinci = son;
-        fibonacci(birinci, ikinci, son, sayi, i+1);
-    }
-
-    
-}
-
-int main()
-{
-    int birinci=0,ikinci=1,son=0,i=0,sayi;
-    printf("Lutfen bir sayi gireinizz\n");
-    scanf_s("%d",  &sayi);
-    fibonacci(birinci, ikinci, son, sayi, i);
-
-}
-
--------------
-
+//Recursive Kullanmadan for ile fibonacci
 
 int main() {
     int sayi, i;
